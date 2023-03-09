@@ -1,0 +1,7 @@
+server:
+  port: 8080
+
+datasource:
+  url: jdbc:mysql://127.0.0.1:3306/login_db?useSSL=false
+  username: test_user
+  password: 1234
