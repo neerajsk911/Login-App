@@ -80,14 +80,3 @@ async function authenticateUser(username, password) {
   // Return the authentication result
   // return data.privilege;
 }
-
-fetch("http://0.0.0.0:8080/login",{
-  method: 'POST',
-  headers: {
-    'Accept' : 'application/json',
-    'Content-Type': 'application/json',
-    'Access-Control-Allow-Origin': '*'
-  },
-  // mode: 'no-cors',
-  body: '{"username":"admin", "password":"admin"}'
-})
