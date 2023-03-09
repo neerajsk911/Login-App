@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  # paths:
+  #   /login:
+  #     # The path to the login directory containing index.html
+  #     classpath: /login
+  #     welcome-file: index.html
+
+datasource:
+  url: jdbc:mysql://127.0.0.1:3306/login_db?useSSL=false
+  username: test_user
+  password: 1234
+cors:
+  enabled: true
