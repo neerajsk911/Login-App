@@ -1,7 +1,13 @@
 package com.app.login;
 import javax.enterprise.context.ApplicationScoped;
 import javax.ws.rs.Produces;
+<<<<<<< HEAD
 import io.helidon.config.Config;
+=======
+
+import io.helidon.config.Config;
+
+>>>>>>> dev
 import javax.sql.DataSource;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
